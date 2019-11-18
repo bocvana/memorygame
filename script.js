@@ -1,4 +1,4 @@
-var images = [
+let images = [
   'card3.png', 'card4.png', 'card5.png', 'card6.png', 'card7.png', 'card8.png', 'card9.png', 'card10.png'
 ];
 let items = [...images, ...images];
