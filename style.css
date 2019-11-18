@@ -152,6 +152,14 @@ body {
     width: calc(100% / 4);
   }
 }
+@media screen and (max-width: 768px) , screen and (max-height: 720px) {
+  .flip-card {
+    height: 100px;
+  }
+  #timer { 
+    top: 25px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .flip-card {
     height: 160px;
