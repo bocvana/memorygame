@@ -101,8 +101,8 @@ createItemArticle();
     } else {
       clearInterval(countDown);
       document.getElementById('game-over').classList.add('show-up');
-      // document.getElementById('wraper-container').classList.add('disable-click');
-      // reload();
+      document.getElementById('wraper-container').classList.add('disable-click');
+      reload();
     }
   }, 1000);
 
